@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:device_apps/device_apps.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class MyDataModel with ChangeNotifier {
+class MyDataModel {
   bool _isTimerRunning = false;
   bool _isResetPressed = false;
 
@@ -56,7 +56,7 @@ class MyDataModel with ChangeNotifier {
       lockStatusMap[key] = true;
     }
   }
-  
+
   void printAppLockState(){
     int i = 0;
     for(var key in lockStatusMap.keys) {
