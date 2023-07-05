@@ -1,6 +1,6 @@
 # potty_focus
 
-A new Flutter project.
+Video Demo URL can be found here => https://youtu.be/2PiUzwEr2xU
 
 ## Getting Started
 
